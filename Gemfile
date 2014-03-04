@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 
 
 gem 'ember-rails'
+gem 'ember-data-source', '>= 1.0.0.beta7'

@@ -1,3 +1,4 @@
+#= require ./localstorage_adapter
 #= require ./store
 #= require_tree ./models
 #= require_tree ./controllers
