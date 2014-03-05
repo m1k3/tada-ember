@@ -13,14 +13,14 @@ TadaEmber.TodosIndexRoute = Ember.Route.extend
 
 TadaEmber.TodosActiveRoute = Ember.Route.extend
   setupController: ->
-    todos = @store.filter 'todo', ->
+    todos = @store.filter 'todo', (todo) ->
       !todo.get('isCompleted')
 
     @controllerFor('todos').set('filteredTodos', todos)
 
 TadaEmber.TodosCompletedRoute = Ember.Route.extend
   setupController: ->
-    todos = @store.filter 'todo', ->
+    todos = @store.filter 'todo', (todo) ->
       todo.get('isCompleted')
 
     @controllerFor('todos').set('filteredTodos', todos)
