@@ -134,6 +134,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   ember-data-source (>= 1.0.0.beta7)
   ember-rails
+  ember-source (>= 1.5.1.1)
   jbuilder (~> 2.0)
   jquery-rails (= 3.0.4)
   pg
