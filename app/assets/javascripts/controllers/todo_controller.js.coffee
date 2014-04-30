@@ -3,7 +3,6 @@ TadaEmber.TodoController = Ember.ObjectController.extend
 
   bufferedTitle: Ember.computed.oneWay('title')
 
-
   actions:
     editTodo: -> @set('isEditing', true)
     doneEditing: ->
